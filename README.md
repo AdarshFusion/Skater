@@ -3,7 +3,9 @@
 **Skater** is a stylish and responsive web page themed around skateboarding culture. It's designed to showcase skate gear, promote personal branding, or serve as a creative template for portfolio websites.
 
 ## 🌐 Live Demo
-Check out the live version here: [Skater Website](https://adarshfusion.github.io/Skater/)
+Check out the live version here:
+<a href="https://adarshfusion.github.io/Skater/" target="_blank">Skater Website</a>
+
 
 ## ✨ Features
 - Modern and bold visual design
