@@ -18,7 +18,7 @@
 <body>
     <!-- Head Section Start -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="home-section">
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-brand" href="#">Skater</a>
@@ -30,31 +30,31 @@
             <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#service-section">Services</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#about-section" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#team-section">Team</a></li>
+                            <li><a class="dropdown-item" href="#price-section">Pricng</a></li>
+                            <li><a class="dropdown-item" href="#faq">FAQ</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#test-section">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#blog-section">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact-section">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -124,7 +124,7 @@
 
     <!-- Service Section Start -->
 
-    <div class="service-section">
+    <div class="service-section" id="service-section">
         <div class="container">
             <div class=" row service">
                 <div class="col-md-7">
@@ -231,7 +231,7 @@
 
 
     <!-- About Section Start -->
-    <div class="about-section">
+    <div class="about-section" id="about-section">
         <div class="container">
             <div class="row video">
                 <a href="img/1969674.mp4">
@@ -282,7 +282,7 @@
     <!-- About Section End -->
 
     <!-- Team Section Start -->
-    <div class="team-section">
+    <div class="team-section" id="team-section">
         <div class="container">
             <div class="row m-intro">
                 <div class="col-md-7 intro">
@@ -338,7 +338,7 @@
 
 
     <!-- Pricing Section Start -->
-    <div class="price-section">
+    <div class="price-section" id="price-section">
         <div class="container">
             <div class="row content">
                 <div class="col-md-7 content-block">
@@ -402,56 +402,59 @@
                     </div>
                 </div>
             </div>
-            <div class="question">
-                <div class="que-tag">
-                    <h2>
-                        Frequently Ask Questions
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div>
-                        <h3>Can I accept both Paypal and Stripe?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
-                            perferendis.</p>
-                    </div>
-                    <div>
-                        <h3>What available is refund period?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
-                            perferendis.</p>
-                    </div>
-                    <div>
-                        <h3>Can I accept both Paypal and Stripe?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
-                            perferendis.</p>
-                    </div>
-                    <div>
-                        <h3>Can I accept both Paypal and Stripe?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
-                            perferendis.</p>
+            <div id="faq">
+                <div class="question">
+                    <div class="que-tag">
+                        <h2>
+                            Frequently Ask Questions
+                        </h2>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div>
-                        <h3>Where are you from?</h3>
-                        <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia
-                            et. Distinctio assumenda minima maiores.</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div>
+                            <h3>Can I accept both Paypal and Stripe?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                                perferendis.</p>
+                        </div>
+                        <div>
+                            <h3>What available is refund period?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                                perferendis.</p>
+                        </div>
+                        <div>
+                            <h3>Can I accept both Paypal and Stripe?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                                perferendis.</p>
+                        </div>
+                        <div>
+                            <h3>Can I accept both Paypal and Stripe?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                                perferendis.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3>What is your opening time?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
-                            perferendis.</p>
-                    </div>
-                    <div>
-                        <h3>Can I accept both Paypal and Stripe?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
-                            perferendis.</p>
-                    </div>
-                    <div>
-                        <h3>Can I accept both Paypal and Stripe?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
-                            perferendis.</p>
+                    <div class="col-lg-6">
+                        <div>
+                            <h3>Where are you from?</h3>
+                            <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis
+                                officia
+                                et. Distinctio assumenda minima maiores.</p>
+                        </div>
+                        <div>
+                            <h3>What is your opening time?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                                perferendis.</p>
+                        </div>
+                        <div>
+                            <h3>Can I accept both Paypal and Stripe?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                                perferendis.</p>
+                        </div>
+                        <div>
+                            <h3>Can I accept both Paypal and Stripe?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                                perferendis.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -461,7 +464,7 @@
 
 
     <!-- Testimonial Section Start -->
-    <div class="test-section">
+    <div class="test-section"  id="test-section">
         <div class="container">
             <div class="heading">
                 <h2>testimonial</h2>
@@ -506,7 +509,7 @@
             </div>
         </div>
     </div>
-     <script>
+    <script>
         $('.test-sec').owlCarousel({
             loop: true,
             margin: 10,
@@ -530,7 +533,7 @@
 
 
     <!-- About Section 1 Start -->
-    <div class="about-section1">
+    <div class="about-section1" id="blog-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 heading">
@@ -584,7 +587,7 @@
 
 
     <!-- Contact Section Start -->
-    <div class="contact-section">
+    <div class="contact-section" id="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 heading">
