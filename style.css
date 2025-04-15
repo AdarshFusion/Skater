@@ -43,7 +43,9 @@ body {
 .navbar .container .collapse .navbar-nav .nav-link.active {
     color: #ff8b00;
 }
-
+.navbar .container .navbar-toggler .navbar-toggler-icon{
+    display: inline;
+}
 .navbar .container .navbar-toggler:focus {
     box-shadow: none;
 }
