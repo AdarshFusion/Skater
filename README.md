@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 Check out the live version here:
-<a href="https://adarshfusion.github.io/Skater/" target="_blank" rel="noopener noreferrer">Skater Website</a>
+<a href="https://adarshfusion.github.io/Skater/" target="_blank">Skater Website</a>
 
 
 ## ✨ Features
