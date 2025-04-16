@@ -199,6 +199,9 @@ button:hover {
 .site-section {
     margin-bottom: 7rem;
 }
+.site-section .mb-2{
+    margin-top: 99px;
+}
 
 .site-section .row {
     justify-content: center;
@@ -330,6 +333,7 @@ button:hover {
 .team-section .intro {
     margin-bottom: 5rem;
     width: 700px;
+    margin-top: 99px;
 }
 
 .team-section .intro h2 {
@@ -392,6 +396,7 @@ button:hover {
 .price-section .content .content-block {
     width: 600px;
     text-align: center;
+    margin-top: 99px;
 }
 
 .price-section .op .option {
@@ -467,7 +472,7 @@ button:hover {
     text-align: center;
     padding: 50px 0;
     font-size: 2rem;
-    /* margin-bottom: 20px; */
+    padding-top: 99px;
 }
 
 .price-section .row {
@@ -502,6 +507,7 @@ button:hover {
     text-align: center;
     text-transform: uppercase;
     font-size: 3rem;
+    padding-top: 99px;
 }
 
 .test-section .container .item {
@@ -562,6 +568,7 @@ button:hover {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 3.5rem;
+    margin-top: 99px;
 }
 
 .about-section1 .container .heading span {
@@ -623,6 +630,7 @@ button:hover {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 3.5rem;
+    margin-top: 99px;
 }
 
 .contact-section .container .heading span {
