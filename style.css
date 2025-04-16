@@ -14,11 +14,13 @@ body {
 .bg-body-tertiary {
     background-color: #222 !important;
 }
-.navbar{
+
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+
 .navbar .container {
     display: flex;
     padding: 20px;
@@ -43,9 +45,11 @@ body {
 .navbar .container .collapse .navbar-nav .nav-link.active {
     color: #ff8b00;
 }
-.navbar .container .navbar-toggler .navbar-toggler-icon{
+
+.navbar .container .navbar-toggler .navbar-toggler-icon {
     display: inline;
 }
+
 .navbar .container .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -191,7 +195,8 @@ button:hover {
     text-transform: uppercase;
     color: white;
 }
-.site-section{
+
+.site-section {
     margin-bottom: 7rem;
 }
 
@@ -239,9 +244,10 @@ button:hover {
 }
 
 
-.about-section{
+.about-section {
     margin-bottom: 7rem;
 }
+
 .about-section .container .video a {
     display: flex;
     justify-content: center;
@@ -355,29 +361,11 @@ button:hover {
     border-radius: 50%;
 }
 
-.team-section i {
-    position: relative;
-    font-size: 30px;
-    /* background-color: white;
-    height: 30px;
-    border-radius: 5px; */
-}
-
-.team-section span {
-    position: relative;
-}
-
-.team-section .icon span::before {
-    position: absolute;
-    content: "";
-    background-color: white;
-    /* margin-right: 50px; */
-    width: 25px;
-    height: 25px;
-    transform: translateY(-5px);
-    border-radius: 5px;
-    /* transform: translateX(-0.10px); */
-
+.team-section .info i {
+    /* margin:10px; */
+    background-color: #ff8b00;
+    padding:7px 10px;
+    border-radius:5px;
 }
 
 .team-section .info:hover {
@@ -569,6 +557,7 @@ button:hover {
     margin-top: 5rem;
     margin-bottom: 7rem;
 }
+
 .about-section1 .container .heading {
     text-transform: uppercase;
     text-align: center;
@@ -625,9 +614,11 @@ button:hover {
     color: #ff8b00;
     text-decoration: none;
 }
-.contact-section{
+
+.contact-section {
     margin-bottom: 7rem;
 }
+
 .contact-section .container .heading {
     text-transform: uppercase;
     text-align: center;
@@ -867,6 +858,7 @@ button:hover {
         z-index: 100;
         position: relative;
     }
+
     .about-section a .img {
         width: 510px;
         height: 340px;
@@ -875,7 +867,9 @@ button:hover {
 
     .about-section .num {
         font-size: 2rem;
-    }.price-section .container {
+    }
+
+    .price-section .container {
         padding: 0;
         margin-bottom: 2rem;
     }
@@ -891,7 +885,9 @@ button:hover {
     .price-section .row {
         padding: 20px;
         margin-bottom: 1rem;
-    }.test-section .container {
+    }
+
+    .test-section .container {
         padding: 0;
         margin-bottom: 2rem;
     }
@@ -929,13 +925,16 @@ button:hover {
     .site-section .row {
         padding: 20px;
     }
+
     .team-section .row {
         padding: 20px;
     }
+
     .price-section .row {
         padding: 20px;
         margin-bottom: 2rem;
     }
+
     .price-section .container {
         padding: 0 15px;
     }
@@ -954,7 +953,9 @@ button:hover {
 
     .price-section .row {
         margin-bottom: 1rem;
-    }    .test-section .row {
+    }
+
+    .test-section .row {
         padding: 20px;
         margin-bottom: 2rem;
     }
@@ -969,7 +970,9 @@ button:hover {
 
     .test-section .question {
         margin: 10px 0;
-    }.test-section .container {
+    }
+
+    .test-section .container {
         padding: 0 15px;
     }
 
@@ -1009,6 +1012,7 @@ button:hover {
     .site-section .row {
         padding: 20px;
     }
+
     .about-section a .img {
         width: 510px;
         height: 230px;
